@@ -158,8 +158,7 @@ footer {
     margin-bottom: 40px;
 }
 
-.btn,
-.btn-send_message {
+.btn {
     display: inline-block;
     background-color: #128C7E;
     color: #fff;
@@ -171,9 +170,20 @@ footer {
     transition: background-color 0.3s;
 }
 
-.btn:hover,
-.btn-send_message:hover {
+.btn:hover {
     background-color: #0D6E5E;
+}
+
+.btn-send_message {
+    display: inline-block;
+    background-color: #0D6E5E;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .founder-row {
